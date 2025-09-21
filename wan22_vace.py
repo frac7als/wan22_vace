@@ -54,8 +54,8 @@ image = image.run_commands(
     "git clone https://github.com/rgthree/rgthree-comfy.git /root/comfy/ComfyUI/custom_nodes/rgthree-comfy",
     # Install dependencies for VideoHelperSuite
     "cd /root/comfy/ComfyUI/custom_nodes/ComfyUI-VideoHelperSuite && pip install -r requirements.txt",
-    # Install dependencies for Frame Interpolation
-    "cd /root/comfy/ComfyUI/custom_nodes/ComfyUI-Frame-Interpolation && pip install -r requirements.txt",
+    # Install additional packages that Frame Interpolation might need
+    "pip install torchvision torchaudio",
 )
 
 def hf_download():
