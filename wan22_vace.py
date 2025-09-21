@@ -39,16 +39,15 @@ image = image.run_commands(
     "git clone https://github.com/pythongosssss/ComfyUI-Custom-Scripts.git /root/comfy/ComfyUI/custom_nodes/ComfyUI-Custom-Scripts",
     # Layer Style - Required for LayerUtility: PurgeVRAM V2 and LayerColor: Brightness & Contrast nodes
     "git clone https://github.com/chflame163/ComfyUI_LayerStyle.git /root/comfy/ComfyUI/custom_nodes/ComfyUI_LayerStyle",
-    # ComfyUI-SelectStringFromListWithIndex - Required for StringFromList node
-    "git clone https://github.com/mikaelhg/ComfyUI-SelectStringFromListWithIndex.git /root/comfy/ComfyUI/custom_nodes/ComfyUI-SelectStringFromListWithIndex",
-    # CreaPrompt - Required for CreaPrompt List node
-    "git clone https://github.com/AIBlueJay/ComfyUI_CreaPrompt.git /root/comfy/ComfyUI/custom_nodes/ComfyUI_CreaPrompt",
+    # Alternative for StringFromList functionality - use built-in or other nodes
+    # CreaPrompt - Alternative prompt handling (if the original repo doesn't work, this functionality may be in Custom-Scripts)
+    # "git clone https://github.com/AIBlueJay/ComfyUI_CreaPrompt.git /root/comfy/ComfyUI/custom_nodes/ComfyUI_CreaPrompt",
     # Frame Interpolation - Required for RIFE VFI node
     "git clone https://github.com/Fannovel16/ComfyUI-Frame-Interpolation.git /root/comfy/ComfyUI/custom_nodes/ComfyUI-Frame-Interpolation",
     # ComfyUI-Logic - Required for If ANY return A else B and Int nodes
     "git clone https://github.com/theUpsider/ComfyUI-Logic.git /root/comfy/ComfyUI/custom_nodes/ComfyUI-Logic",
-    # WAN Video Wrapper - Required for WanVaceToVideo and WanVideoVACEStartToEndFrame nodes
-    "git clone https://github.com/chaojie/ComfyUI-WanVideoWrapper.git /root/comfy/ComfyUI/custom_nodes/ComfyUI-WanVideoWrapper",
+    # WAN Video Wrapper - Check if this repo exists, otherwise use core WAN functionality
+    # "git clone https://github.com/chaojie/ComfyUI-WanVideoWrapper.git /root/comfy/ComfyUI/custom_nodes/ComfyUI-WanVideoWrapper",
     # Comfyroll Custom Nodes - Required for CR Seed node
     "git clone https://github.com/Suzie1/ComfyUI_Comfyroll_CustomNodes.git /root/comfy/ComfyUI/custom_nodes/ComfyUI_Comfyroll_CustomNodes",
     # rgthree-comfy - Required for Any Switch and Label nodes
